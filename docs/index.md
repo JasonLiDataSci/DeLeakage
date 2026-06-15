@@ -3,7 +3,7 @@
 We are excited to release DeLeakage v1.0! To install, please follow the instructions in our [install page](install.md). Try our interactive demo [here](quickstart.md).
 
 <p align="center">
-  <img src="images/workflow.png" width="100%" alt="DeLeakage Workflow">
+  <img src="images/workflow2.png" width="100%" alt="DeLeakage Workflow">
 </p>
 
 ## Overview
