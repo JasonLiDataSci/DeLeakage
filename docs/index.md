@@ -44,20 +44,9 @@ See our [install page](install.md) and [quickstart](quickstart.md) for detailed 
 ## Citation
 
 Once our bioRxiv paper is available, please cite our work as shown below:
-```
-Christina Huan Shi1,*, Yibo Zhai2,*, Savio Ho-Chit Chow1, Liangbang Li2, Chase M. Carver3, Marcos G. Teneche4, Jesus Flores5, Colin Kern5, Peter D. Adams4,6, Bing Ren7, Marissa J. Schafer3, Quan Zhu5, Yingying Wei2,$ and Kevin Y. Yip1,4,8,$. Correcting spatial transcriptomics data affected by a prevalent transcript leakage problem across platforms, species, and tissues. bioRxiv. https://xxxx
-(* equal contributions; $ co-corresponding authors)
-```
 
-## Author Affiliations
-1. Center for Data Science and Artificial Intelligence, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA, United States
-2. Department of Statistics and Data Science, The Chinese University of Hong Kong, Shatin, Hong Kong
-3. Robert and Arlene Kogod Center on Aging, Department of Physiology and Biomedical Engineering, Mayo Clinic, Rochester, MN, United States
-4. Cancer Genome and Epigenetics Program, NCI-Designated Cancer Center, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA, United States
-5. Department of Cellular and Molecular Medicine, University of California San Diego, San Diego, CA, United States
-6. Center for Metabolic and Liver Diseases, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA, United States
-7. New York Genome Center, New York, NY, United States
-8. Center for Neurologic Diseases, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA, United States
+Christina Huan Shi*, Yibo Zhai*, Savio Ho-Chit Chow, Liangbang Li, Chase M. Carver, Marcos G. Teneche, Jesus Flores, Colin Kern, Peter D. Adams,
+Bing Ren, Marissa J. Schafer, Quan Zhu, Yingying Wei$ and Kevin Y. Yip$. Correcting spatial transcriptomics data affected by a prevalent transcript leakage problem across platforms, species, and tissues. (* equal contributions; $ co-corresponding authors)
 
 ## Code & Data
 
