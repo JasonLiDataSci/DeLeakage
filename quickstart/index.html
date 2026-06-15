@@ -587,10 +587,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#44-cosine-similarity-quantification-visualization" class="md-nav__link">
+  <a href="#44-cosine-similarity" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.4 Cosine Similarity Quantification &amp; Visualization
+        4.4 Cosine Similarity
       
     </span>
   </a>
@@ -598,10 +598,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#45-jaccard-index-calculation" class="md-nav__link">
+  <a href="#45-jaccard-index" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.5 Jaccard Index Calculation
+        4.5 Jaccard Index
       
     </span>
   </a>
@@ -637,10 +637,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#52-model-running-input-data-generated-from-preprocessing" class="md-nav__link">
+  <a href="#52-model-running-input-data" class="md-nav__link">
     <span class="md-ellipsis">
       
-        5.2 Model Running Input (./data/, generated from preprocessing)
+        5.2 Model Running Input (./data/)
       
     </span>
   </a>
@@ -850,38 +850,38 @@
 <li>Dependency input: marker gene list + cell type annotation information</li>
 <li>Function: visualize average expression abundance and cell detection ratio of marker genes across three datasets to verify decontamination performance.</li>
 </ul>
+<p align="center">
+  <img src="images/Marker.png" width="80%" alt="Marker">
+</p>
+
+<p align="center">
+  <img src="images/DE.png" width="80%" alt="DE">
+</p>
+
 <h3 id="43-spatial-pattern-plot-for-marker-custom-genes">4.3 Spatial Pattern Plot for Marker &amp; Custom Genes</h3>
 <ol>
 <li>Mandatory marker gene plotting: generate paired spatial distribution plots for each marker gene (raw observed vs decontaminated expression);</li>
 <li>Custom gene plotting: input arbitrary single/multiple gene names to render their spatial expression patterns on tissue section based on cell spatial coordinates.</li>
 </ol>
-<p align="center">
-  <img src="images/Marker.png" width="80%" alt="DeLeakage Workflow">
-</p>
-
-<p align="center">
-  <img src="images/DE.png" width="80%" alt="DeLeakage Workflow">
-</p>
-
-<h3 id="44-cosine-similarity-quantification-visualization">4.4 Cosine Similarity Quantification &amp; Visualization</h3>
+<h3 id="44-cosine-similarity">4.4 Cosine Similarity</h3>
 <p>Calculate pairwise gene-wise Cosine similarity between:
 - Observed ↔ pure scRNA-seq
 - Decontaminated ↔ pure scRNA-seq
 Use similarity distribution to quantify how DeLeakage recovers native transcriptomic profile from contaminated spatial data.</p>
 <p align="center">
-  <img src="images/CS.png" width="80%" alt="DeLeakage Workflow">
+  <img src="images/CS.png" width="80%" alt="Cosine Similarity">
 </p>
 
-<h3 id="45-jaccard-index-calculation">4.5 Jaccard Index Calculation</h3>
+<h3 id="45-jaccard-index">4.5 Jaccard Index</h3>
 <p>Compute Jaccard index of marker gene detection status across three datasets as another quantitative metric for decontamination efficacy evaluation.</p>
 <p align="center">
-  <img src="images/JI.png" width="50%" alt="DeLeakage Workflow">
+  <img src="images/JI.png" width="50%" alt="Jaccard Index">
 </p>
 
 <h2 id="5-inputoutput-file-summary">5. Input/Output File Summary</h2>
 <h3 id="51-preprocessing-raw-source-input-raw-data-folder">5.1 Preprocessing Raw Source Input (<code>Raw Data Folder</code>)</h3>
 <p>Original unprocessed user-provided data before preprocessing: raw count matrix, cell spatial coordinates, cell size vector, full gene name list.</p>
-<h3 id="52-model-running-input-data-generated-from-preprocessing">5.2 Model Running Input (<code>./data/</code>, generated from preprocessing)</h3>
+<h3 id="52-model-running-input-data">5.2 Model Running Input (<code>./data/</code>)</h3>
 <table>
 <thead>
 <tr>
