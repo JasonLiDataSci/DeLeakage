@@ -119,40 +119,40 @@ Prepare below files before plotting:
 - Dependency input: marker gene list + cell type annotation information
 - Function: visualize average expression abundance and cell detection ratio of marker genes across three datasets to verify decontamination performance.
 
+<p align="center">
+  <img src="images/Marker.png" width="80%" alt="Marker">
+</p>
+
+<p align="center">
+  <img src="images/DE.png" width="80%" alt="DE">
+</p>
+
 ### 4.3 Spatial Pattern Plot for Marker & Custom Genes
 1. Mandatory marker gene plotting: generate paired spatial distribution plots for each marker gene (raw observed vs decontaminated expression);
 2. Custom gene plotting: input arbitrary single/multiple gene names to render their spatial expression patterns on tissue section based on cell spatial coordinates.
 
-<p align="center">
-  <img src="images/Marker.png" width="80%" alt="DeLeakage Workflow">
-</p>
-
-<p align="center">
-  <img src="images/DE.png" width="80%" alt="DeLeakage Workflow">
-</p>
-
-### 4.4 Cosine Similarity Quantification & Visualization
+### 4.4 Cosine Similarity
 Calculate pairwise gene-wise Cosine similarity between:
 - Observed ↔ pure scRNA-seq
 - Decontaminated ↔ pure scRNA-seq
 Use similarity distribution to quantify how DeLeakage recovers native transcriptomic profile from contaminated spatial data.
 
 <p align="center">
-  <img src="images/CS.png" width="80%" alt="DeLeakage Workflow">
+  <img src="images/CS.png" width="80%" alt="Cosine Similarity">
 </p>
 
-### 4.5 Jaccard Index Calculation
+### 4.5 Jaccard Index
 Compute Jaccard index of marker gene detection status across three datasets as another quantitative metric for decontamination efficacy evaluation.
 
 <p align="center">
-  <img src="images/JI.png" width="50%" alt="DeLeakage Workflow">
+  <img src="images/JI.png" width="50%" alt="Jaccard Index">
 </p>
 
 ## 5. Input/Output File Summary
 ### 5.1 Preprocessing Raw Source Input (`Raw Data Folder`)
 Original unprocessed user-provided data before preprocessing: raw count matrix, cell spatial coordinates, cell size vector, full gene name list.
 
-### 5.2 Model Running Input (`./data/`, generated from preprocessing)
+### 5.2 Model Running Input (`./data/`)
 | Filename | Source |
 | ---- | ---- |
 | `Y_obs.txt` | Observed spatial expression count matrix |
