@@ -13,12 +13,9 @@ All preprocessing steps generate standardized intermediate input files stored un
 
 ### 2.1 Raw Input Collection
 Prepare four core original input files before preprocessing, save all source data to the raw data folder:
-| Raw Input | Description |
-| ---- | ---- |
-| Observed expression count matrix | Raw gene-by-cell count matrix (uncorrected contaminated spatial transcriptomic data, source of `Y_obs.txt`) |
-| Cell coordinates | 2D spatial coordinate information of each single cell, used for spatial neighbor searching |
-| Cell size | Numeric cell volume/size vector per cell, exported as `cell_size.txt` |
-| Gene name list | Full gene ID/name annotation list for all features, required for downstream gene-specific visualization |
+<p align="left">
+  <img src="images/input.png" width="80%" alt="DeLeakage Workflow">
+</p>
 
 ### 2.2 Build Neighbor List Matrix & Neighbor Distance Matrix
 1. Use cell spatial coordinates to screen the spatial cutoff distance: select a fixed radius where the **median number of neighboring cells across all cells equals 10**;
