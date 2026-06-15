@@ -40,19 +40,22 @@ DeLeakage substantially outperforms existing ST denoising methods (SPLIT, SpotCl
 ## Quick Start
 See our [install page](install.md) and [quickstart](quickstart.md) for detailed tutorials and advanced usage.
 
-## Citation
-Once our biorxiv paper is available,  please directly cite our paper according to
+# Citation
+Once our bioRxiv paper is available, please cite our work as shown below:
+```
+Christina Huan Shi1,*, Yibo Zhai2,*, Savio Ho-Chit Chow1, Liangbang Li2, Chase M. Carver3, Marcos G. Teneche4, Jesus Flores5, Colin Kern5, Peter D. Adams4,6, Bing Ren7, Marissa J. Schafer3, Quan Zhu5, Yingying Wei2,$ and Kevin Y. Yip1,4,8,$. Correcting spatial transcriptomics data affected by a prevalent transcript leakage problem across platforms, species, and tissues. bioRxiv. https://xxxx
+(* equal contributions; $ co-corresponding authors)
+```
 
-Christina Huan Shi1,*, Yibo Zhai2,*, Savio Ho-Chit Chow1, Liangbang Li2, Chase M. Carver3, Marcos G. Teneche4, Jesus Flores5, Colin Kern5, Peter D. Adams4,6, Bing Ren7, Marissa J. Schafer3, Quan Zhu5, Yingying Wei2,$ and Kevin Y. Yip1,4,8,$ Correcting spatial transcriptomics data affected by a prevalent transcript leakage problem across platforms, species, and tissues, biorxiv link:xxxx (* indicates equal contributions, and  $ represents the co-corresponding authors )
-
-1 Center for Data Science and Artificial Intelligence, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA, United States
-2 Department of Statistics and Data Science, The Chinese University of Hong Kong, Shatin, Hong Kong
-3 Robert and Arlene Kogod Center on Aging, Department of Physiology and Biomedical Engineering, Mayo Clinic, Rochester, MN, United States
-4 Cancer Genome and Epigenetics Program, NCI-Designated Cancer Center, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA, United States
-5 Department of Cellular and Molecular Medicine, University of California San Diego, San Diego, CA, United States
-6 Center for Metabolic and Liver Diseases, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA, United States
-7 New York Genome Center, New York, NY, United States
-8 Center for Neurologic Diseases, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA, United States
+## Author Affiliations
+1. Center for Data Science and Artificial Intelligence, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA, United States
+2. Department of Statistics and Data Science, The Chinese University of Hong Kong, Shatin, Hong Kong
+3. Robert and Arlene Kogod Center on Aging, Department of Physiology and Biomedical Engineering, Mayo Clinic, Rochester, MN, United States
+4. Cancer Genome and Epigenetics Program, NCI-Designated Cancer Center, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA, United States
+5. Department of Cellular and Molecular Medicine, University of California San Diego, San Diego, CA, United States
+6. Center for Metabolic and Liver Diseases, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA, United States
+7. New York Genome Center, New York, NY, United States
+8. Center for Neurologic Diseases, Sanford Burnham Prebys Medical Discovery Institute, La Jolla, CA, United States
 
 ## Code & Data
 
