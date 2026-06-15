@@ -43,7 +43,11 @@ See our [install page](install.md) and [quickstart](quickstart.md) for detailed 
 ## Citation
 Once our bioRxiv paper is available, please cite our work as shown below:
 ```
-Christina Huan Shi1,*, Yibo Zhai2,*, Savio Ho-Chit Chow1, Liangbang Li2, Chase M. Carver3, Marcos G. Teneche4, Jesus Flores5, Colin Kern5, Peter D. Adams4,6, Bing Ren7, Marissa J. Schafer3, Quan Zhu5, Yingying Wei2,$ and Kevin Y. Yip1,4,8,$. Correcting spatial transcriptomics data affected by a prevalent transcript leakage problem across platforms, species, and tissues. bioRxiv. https://xxxx
+Christina Huan Shi1,*, Yibo Zhai2,*, Savio Ho-Chit Chow1, Liangbang Li2,
+Chase M. Carver3, Marcos G. Teneche4, Jesus Flores5, Colin Kern5, Peter D. Adams4,6,
+Bing Ren7, Marissa J. Schafer3, Quan Zhu5,
+Yingying Wei2,$ and Kevin Y. Yip1,4,8,$.
+Correcting spatial transcriptomics data affected by a prevalent transcript leakage problem across platforms, species, and tissues. bioRxiv. https://xxxx
 (* equal contributions; $ co-corresponding authors)
 ```
 
