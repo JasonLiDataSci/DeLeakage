@@ -138,7 +138,7 @@ Calculate pairwise gene-wise Cosine similarity between:
 Use similarity distribution to quantify how DeLeakage recovers native transcriptomic profile from contaminated spatial data.
 
 <p align="center">
-  <img src="images/CS.png" width="100%" alt="DeLeakage Workflow">
+  <img src="images/CS.png" width="80%" alt="DeLeakage Workflow">
 </p>
 
 ### 4.5 Jaccard Index Calculation
