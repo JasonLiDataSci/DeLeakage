@@ -739,13 +739,11 @@
 <h2 id="2-data-preprocessing">2. Data Preprocessing</h2>
 <p>All preprocessing steps generate standardized intermediate input files stored under <code>./data/</code>, which are mandatory inputs for subsequent DeLeakage execution. Preprocessing is split into 4 standardized modules consistent with the algorithm design.</p>
 <h3 id="21-raw-input-collection">2.1 Raw Input Collection</h3>
-<p>Prepare four core original input files before preprocessing, save all source data to the raw data folder:
-| Raw Input | Description |
-| ---- | ---- |
-| Observed expression count matrix | Raw gene-by-cell count matrix (uncorrected contaminated spatial transcriptomic data, source of <code>Y_obs.txt</code>) |
-| Cell coordinates | 2D spatial coordinate information of each single cell, used for spatial neighbor searching |
-| Cell size | Numeric cell volume/size vector per cell, exported as <code>cell_size.txt</code> |
-| Gene name list | Full gene ID/name annotation list for all features, required for downstream gene-specific visualization |</p>
+<p>Prepare four core original input files before preprocessing, save all source data to the raw data folder:</p>
+<p align="left">
+  <img src="images/input.png" width="80%" alt="DeLeakage Workflow">
+</p>
+
 <h3 id="22-build-neighbor-list-matrix-neighbor-distance-matrix">2.2 Build Neighbor List Matrix &amp; Neighbor Distance Matrix</h3>
 <ol>
 <li>Use cell spatial coordinates to screen the spatial cutoff distance: select a fixed radius where the <strong>median number of neighboring cells across all cells equals 10</strong>;</li>
