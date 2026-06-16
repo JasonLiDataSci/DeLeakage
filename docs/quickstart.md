@@ -135,16 +135,12 @@ Calculate pairwise gene-wise Cosine similarity between:
 - Decontaminated ↔ pure scRNA-seq
 Use similarity distribution to quantify how DeLeakage recovers native transcriptomic profile from contaminated spatial data.
 
-<div align="center">
-  <img src="images/CS.png" width="80%" alt="Cosine Similarity">
-</div>
+![Cosine Similarity](images/CS.png)
 
 ### 4.5 Jaccard Index
 Compute Jaccard index of marker gene detection status across three datasets as another quantitative metric for decontamination efficacy evaluation.
 
-<div align="center">
-  <img src="images/JI.png" width="50%" alt="Jaccard Index">
-</div>
+![Jaccard Index](images/JI.png)
 
 ## 5. Input/Output File Summary
 ### 5.1 Preprocessing Raw Source Input (`Raw Data Folder`)
