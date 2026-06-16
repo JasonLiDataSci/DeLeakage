@@ -120,9 +120,9 @@ Prepare below files before plotting:
 - Dependency input: marker gene list + cell type annotation information
 - Function: visualize average expression abundance and cell detection ratio of marker genes across three datasets to verify decontamination performance.
 
-![Marker](images/Marker.png){ width="80%" align="center" }
+![Marker](images/Marker.png)
 
-![DE](images/DE.png){ width="80%" align="center" }
+![DE](images/DE.png)
 
 
 ### 4.3 Spatial Pattern Plot for Marker & Custom Genes
