@@ -13,9 +13,9 @@ All preprocessing steps generate standardized intermediate input files stored un
 
 ### 2.1 Raw Input Collection
 Prepare four core original input files before preprocessing, save all source data to the raw data folder:
-<p align="left">
+<div align="left">
   <img src="images/input.png" width="80%" alt="DeLeakage Workflow">
-</p>
+</div>
 
 ### 2.2 Build Neighbor List Matrix & Neighbor Distance Matrix
 1. Use cell spatial coordinates to screen the spatial cutoff distance: select a fixed radius where the **median number of neighboring cells across all cells equals 10**;
@@ -119,13 +119,13 @@ Prepare below files before plotting:
 - Dependency input: marker gene list + cell type annotation information
 - Function: visualize average expression abundance and cell detection ratio of marker genes across three datasets to verify decontamination performance.
 
-<p align="center">
+<div align="center">
   <img src="images/Marker.png" width="80%" alt="Marker">
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="images/DE.png" width="80%" alt="DE">
-</p>
+</div>
 
 ### 4.3 Spatial Pattern Plot for Marker & Custom Genes
 1. Mandatory marker gene plotting: generate paired spatial distribution plots for each marker gene (raw observed vs decontaminated expression);
@@ -137,16 +137,16 @@ Calculate pairwise gene-wise Cosine similarity between:
 - Decontaminated ↔ pure scRNA-seq
 Use similarity distribution to quantify how DeLeakage recovers native transcriptomic profile from contaminated spatial data.
 
-<p align="center">
+<div align="center">
   <img src="images/CS.png" width="80%" alt="Cosine Similarity">
-</p>
+</div>
 
 ### 4.5 Jaccard Index
 Compute Jaccard index of marker gene detection status across three datasets as another quantitative metric for decontamination efficacy evaluation.
 
-<p align="center">
+<div align="center">
   <img src="images/JI.png" width="50%" alt="Jaccard Index">
-</p>
+</div>
 
 ## 5. Input/Output File Summary
 ### 5.1 Preprocessing Raw Source Input (`Raw Data Folder`)
