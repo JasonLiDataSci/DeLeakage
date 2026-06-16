@@ -740,9 +740,9 @@
 <p>All preprocessing steps generate standardized intermediate input files stored under <code>./data/</code>, which are mandatory inputs for subsequent DeLeakage execution. Preprocessing is split into 4 standardized modules consistent with the algorithm design.</p>
 <h3 id="21-raw-input-collection">2.1 Raw Input Collection</h3>
 <p>Prepare four core original input files before preprocessing, save all source data to the raw data folder:</p>
-<div align="left">
+<p align="left">
   <img src="images/input.png" width="80%" alt="DeLeakage Workflow">
-</div>
+</p>
 
 <h3 id="22-build-neighbor-list-matrix-neighbor-distance-matrix">2.2 Build Neighbor List Matrix &amp; Neighbor Distance Matrix</h3>
 <ol>
@@ -850,14 +850,8 @@
 <li>Dependency input: marker gene list + cell type annotation information</li>
 <li>Function: visualize average expression abundance and cell detection ratio of marker genes across three datasets to verify decontamination performance.</li>
 </ul>
-<div align="center">
-  <img src="images/Marker.png" width="80%" alt="Marker">
-</div>
-
-<div align="center">
-  <img src="images/DE.png" width="80%" alt="DE">
-</div>
-
+<p><img align="center" alt="Marker" src="../images/Marker.png" width="80%" /></p>
+<p><img align="center" alt="DE" src="../images/DE.png" width="80%" /></p>
 <h3 id="43-spatial-pattern-plot-for-marker-custom-genes">4.3 Spatial Pattern Plot for Marker &amp; Custom Genes</h3>
 <ol>
 <li>Mandatory marker gene plotting: generate paired spatial distribution plots for each marker gene (raw observed vs decontaminated expression);</li>
