@@ -13,9 +13,10 @@ All preprocessing steps generate standardized intermediate input files stored un
 
 ### 2.1 Raw Input Collection
 Prepare four core original input files before preprocessing, save all source data to the raw data folder:
-<div align="left">
+<p align="left">
   <img src="images/input.png" width="80%" alt="DeLeakage Workflow">
-</div>
+</p>
+
 
 ### 2.2 Build Neighbor List Matrix & Neighbor Distance Matrix
 1. Use cell spatial coordinates to screen the spatial cutoff distance: select a fixed radius where the **median number of neighboring cells across all cells equals 10**;
@@ -119,13 +120,10 @@ Prepare below files before plotting:
 - Dependency input: marker gene list + cell type annotation information
 - Function: visualize average expression abundance and cell detection ratio of marker genes across three datasets to verify decontamination performance.
 
-<div align="center">
-  <img src="images/Marker.png" width="80%" alt="Marker">
-</div>
+![Marker](images/Marker.png){ width="80%" align="center" }
 
-<div align="center">
-  <img src="images/DE.png" width="80%" alt="DE">
-</div>
+![DE](images/DE.png){ width="80%" align="center" }
+
 
 ### 4.3 Spatial Pattern Plot for Marker & Custom Genes
 1. Mandatory marker gene plotting: generate paired spatial distribution plots for each marker gene (raw observed vs decontaminated expression);
