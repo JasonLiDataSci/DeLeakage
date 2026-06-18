@@ -41,7 +41,7 @@ DeLeakage substantially outperforms existing ST denoising methods (SPLIT, SpotCl
 See our [install page](install.md) and [quickstart](quickstart.md) for detailed tutorials and advanced usage.
 
 ## Citation
-Once our bioRxiv paper is available, please cite our work as shown below:
+Please cite our work as shown below:
 
 Christina Huan Shi\*, Yibo Zhai\*, Savio Ho-Chit Chow, Liangbang Li, Chase M. Carver, Marcos G. Teneche, Jesus Flores, Colin Kern, Peter D. Adams,
 Bing Ren, Marissa J. Schafer, Quan Zhu, Yingying Wei$ and Kevin Y. Yip$. Correcting spatial transcriptomics data affected by a prevalent transcript leakage problem across platforms, species, and tissues, biorxiv link: https://www.biorxiv.org/content/10.64898/2026.06.13.732076v1 (* equal contributions; $ co-corresponding authors)
