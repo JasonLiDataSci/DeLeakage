@@ -38,7 +38,7 @@ DeLeakage substantially outperforms existing ST denoising methods (SPLIT, SpotCl
 - Tissues: Brain, heart, and all other tissue types
 
 ## Quick Start
-See our [install page](install.md) and [quickstart](quickstart.md) for detailed tutorials and advanced usage.
+See our [install page](docs/install.md) and [quickstart](docs/quickstart.md) for detailed tutorials and advanced usage.
 
 ## Citation
 Please cite our work as shown below:
