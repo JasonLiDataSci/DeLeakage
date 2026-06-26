@@ -1,6 +1,6 @@
 # DeLeakage
 
-We are excited to release DeLeakage v1.0! To install, please follow the instructions in our [install page](docs/install.md). Try our interactive demo [here](https://yip-lab.github.io/DeLeakage/quickstart/).
+We are excited to release DeLeakage v1.0! To install, please follow the instructions in our [install page](https://yip-lab.github.io/DeLeakage/install/). Try our interactive demo [here](https://yip-lab.github.io/DeLeakage/quickstart/).
 
 <p align="center">
   <img src="docs/images/workflow2.png" width="100%" alt="DeLeakage Workflow">
@@ -38,7 +38,7 @@ DeLeakage substantially outperforms existing ST denoising methods (SPLIT, SpotCl
 - Tissues: Brain, heart, and all other tissue types
 
 ## Quick Start
-See our [install page](docs/install.md) and [quickstart](docs/quickstart.md) for detailed tutorials and advanced usage.
+See our [install page](https://yip-lab.github.io/DeLeakage/install/) and [quickstart](dhttps://yip-lab.github.io/DeLeakage/quickstart/) for detailed tutorials and advanced usage.
 
 ## Citation
 Please cite our work as shown below:
