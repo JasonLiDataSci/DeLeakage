@@ -13,10 +13,7 @@ All preprocessing steps generate standardized intermediate input files stored un
 
 ### 2.1 Raw Input Collection
 Prepare four core original input files before preprocessing, save all source data to the raw data folder:
-<p align="left">
-  <img src="images/input.png" width="80%" alt="DeLeakage Workflow">
-</p>
-
+![Input](images/input.png)
 
 ### 2.2 Build Neighbor List Matrix & Neighbor Distance Matrix
 1. Use cell spatial coordinates to screen the spatial cutoff distance: select a fixed radius where the **median number of neighboring cells across all cells equals 10**;
