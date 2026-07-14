@@ -739,11 +739,8 @@
 <h2 id="2-data-preprocessing">2. Data Preprocessing</h2>
 <p>All preprocessing steps generate standardized intermediate input files stored under <code>./data/</code>, which are mandatory inputs for subsequent DeLeakage execution. Preprocessing is split into 4 standardized modules consistent with the algorithm design.</p>
 <h3 id="21-raw-input-collection">2.1 Raw Input Collection</h3>
-<p>Prepare four core original input files before preprocessing, save all source data to the raw data folder:</p>
-<p align="left">
-  <img src="images/input.png" width="80%" alt="DeLeakage Workflow">
-</p>
-
+<p>Prepare four core original input files before preprocessing, save all source data to the raw data folder:
+<img alt="Input" src="../images/input.png" /></p>
 <h3 id="22-build-neighbor-list-matrix-neighbor-distance-matrix">2.2 Build Neighbor List Matrix &amp; Neighbor Distance Matrix</h3>
 <ol>
 <li>Use cell spatial coordinates to screen the spatial cutoff distance: select a fixed radius where the <strong>median number of neighboring cells across all cells equals 10</strong>;</li>
